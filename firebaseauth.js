@@ -110,7 +110,7 @@ loginButton.addEventListener("click", async () => {
         }
 
         alert("Logged in successfully!");
-        window.location.href = "https://gkbishnoi07.github.io/pst-project1/"; // Replace with your desired URL
+        window.location.href = "https://gkbishnoi07.github.io/PST-Project01/"; // Replace with your desired URL
     } catch (error) {
         if (error.code === "auth/wrong-password") {
             alert("Incorrect password. Please try again.");
