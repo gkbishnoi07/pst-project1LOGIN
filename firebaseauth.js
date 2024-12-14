@@ -75,8 +75,6 @@ signupButton.addEventListener("click", async () => {
         await setDoc(doc(db, "users", user.uid), {
             name: name,
             email: email,
-            age: age,
-            weight: weight,
         });
 
         alert("Account created successfully!");
