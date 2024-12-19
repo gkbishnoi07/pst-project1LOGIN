@@ -38,8 +38,6 @@ const showSignup = document.getElementById("showSignup");
 // Signup Form Elements
 const signupName = document.getElementById("signupName");
 const signupEmail = document.getElementById("signupEmail");
-const signupage = document.getElementById("signupage");
-const signupweight = document.getElementById("signupweight");
 const signupPassword = document.getElementById("signupPassword");
 const repeatPassword = document.getElementById("repeatPassword");
 
@@ -57,8 +55,6 @@ showLogin.addEventListener("click", () => {
 signupButton.addEventListener("click", async () => {
     const name = signupName.value;
     const email = signupEmail.value;
-    const age = signupage.value;
-    const weight = signupweight.value;
     const password = signupPassword.value;
     const confirmPassword = repeatPassword.value;
 
